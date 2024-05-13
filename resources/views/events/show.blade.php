@@ -21,6 +21,7 @@
                                 <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Name</th>
                                 <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Description</th>
                                 <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Start Date & Time</th>
+                                <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Location</th>
                                 <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Status</th>
                                 <th class="px-4 py-2 text-gray-900 dark:text-white text-center">Actions</th>
                             </tr>
@@ -32,6 +33,7 @@
                                 <td class="border px-4 py-2 text-gray-900 dark:text-white text-center">{{ $event->name }}</td>
                                 <td class="border px-4 py-2 text-gray-900 dark:text-white text-center">{{ $event->description }}</td>
                                 <td class="border px-4 py-2 text-gray-900 dark:text-white text-center">{{ $event->start_datetime }}</td>
+                                <td class="border px-4 py-2 text-gray-900 dark:text-white text-center">{{ $event->location }}</td>
                                 <td class="border px-4 py-2 text-gray-900 dark:text-white text-center">{{ $event->status }}</td>
 
                                 <td class="border px-4 py-2 text-center">
